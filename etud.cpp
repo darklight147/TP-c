@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int getMax(float *note)
+float getMax(float *note)
 {
     float max = 0;
     for (int i = 0; i < 5; i++)
@@ -16,7 +16,7 @@ int getMax(float *note)
     return max;
 }
 
-int getMin(float *note)
+float getMin(float *note)
 {
     float min = 20;
     for (int i = 0; i < 5; i++)
@@ -28,7 +28,7 @@ int getMin(float *note)
     }
     return min;
 }
-int getMoy(float *note)
+float getMoy(float *note)
 {
     float sum = 0;
     for (int i = 0; i < 5; i++)
